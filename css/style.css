@@ -1,0 +1,99 @@
+.text-gold {
+    color: #b99272;
+}
+
+.bg-gold {
+    background-color: #b99272;
+}
+
+.bg-gold:hover {
+    background-color:#fff;
+    color: #b99272
+}
+
+.bg-custom-dark {
+    background-color: #0e1317;
+}
+
+.social-icons a,
+.social-icons a:visited,
+.social-icons a:active,
+.social-icons a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons i:hover {
+    cursor: pointer;
+}
+
+nav li>a {
+    color: white ;
+}
+
+.navbar-nav>li>a:hover {
+    color: #b99272 ;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #b99272 !important;
+    background-color: black;
+}
+
+.navbar-collapse>form>button:hover {
+    color: #b99272 !important;
+    background-color: white;
+    transition: background-color 0.75s ease;
+}
+.text-golde{
+    background-color: #b99272;
+    padding:20px;
+    border-radius: 6px 2px 6px 2px;
+    display: flex;
+}
+.border-gold{
+    border-color:var(--gold)  !important;
+}
+.service{
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 0.5s ease-in-out;
+}
+.service:before{
+    content:'';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #00000085;
+    left:0;
+    top:0;
+}
+.service >div{
+    position: relative;
+    z-index: 3;
+}
+.service:hover{
+    background-size: 110%;
+}
+.service:hover:before{
+    background-color: #b9927291;
+}
+.background{
+    background-image: url('../imgs/category_bg.jpg');
+}
+.menu{
+    text-align: center;
+    padding: 10px;
+    }
+.menu .h1{
+    text-align: center;
+    padding: 4px; 
+}
+.kf-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-position:center;
+}
